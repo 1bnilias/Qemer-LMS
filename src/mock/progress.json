@@ -1,0 +1,29 @@
+[
+  {
+    "courseId": "1",
+    "userId": "1",
+    "completedLectures": ["1", "2"],
+    "completedAssignments": ["1"],
+    "overallProgress": 45,
+    "lastAccessed": "2025-09-12T00:00:00.000Z",
+    "enrolledAt": "2025-08-01T00:00:00.000Z"
+  },
+  {
+    "courseId": "2",
+    "userId": "1",
+    "completedLectures": [],
+    "completedAssignments": [],
+    "overallProgress": 15,
+    "lastAccessed": "2025-09-10T00:00:00.000Z",
+    "enrolledAt": "2025-08-15T00:00:00.000Z"
+  },
+  {
+    "courseId": "3",
+    "userId": "1",
+    "completedLectures": [],
+    "completedAssignments": [],
+    "overallProgress": 5,
+    "lastAccessed": "2025-09-11T00:00:00.000Z",
+    "enrolledAt": "2025-09-01T00:00:00.000Z"
+  }
+]

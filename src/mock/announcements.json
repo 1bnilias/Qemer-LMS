@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "title": "Welcome to Fall 2024 Semester",
+    "content": "Welcome to the Fall 2024 semester! We're excited to have you back. Please check your course schedules and ensure all prerequisites are met. Orientation sessions will be held on September 1st.",
+    "author": "Dr. Sarah Johnson",
+    "authorRole": "Dean of Computer Science",
+    "priority": "high",
+    "targetAudience": "all",
+    "department": null,
+    "createdAt": "2024-08-25T09:00:00.000Z",
+    "expiresAt": "2024-09-30T23:59:59.000Z",
+    "isActive": true
+  },
+  {
+    "id": "2",
+    "title": "New Research Opportunities Available",
+    "content": "The Department of Data Science is offering research assistant positions for qualified students. Applications are now open for Spring 2024 projects in machine learning and AI.",
+    "author": "Prof. Mike Chen",
+    "authorRole": "Department Head",
+    "priority": "medium",
+    "targetAudience": "students",
+    "department": "Data Science",
+    "createdAt": "2024-08-20T14:30:00.000Z",
+    "expiresAt": "2024-10-15T23:59:59.000Z",
+    "isActive": true
+  },
+  {
+    "id": "3",
+    "title": "Important: Library Hours Update",
+    "content": "Due to maintenance work, the main library will be closed on September 15th and 16th. Digital resources will remain available through the online portal.",
+    "author": "Library Administration",
+    "authorRole": "Library Services",
+    "priority": "medium",
+    "targetAudience": "all",
+    "department": null,
+    "createdAt": "2024-08-18T11:15:00.000Z",
+    "expiresAt": "2024-09-20T23:59:59.000Z",
+    "isActive": true
+  },
+  {
+    "id": "4",
+    "title": "CS301 Midterm Schedule",
+    "content": "Midterm examination for CS301: Web Development and Backend Systems will be held on October 5th, 2024 from 10:00 AM to 12:00 PM in Room A201.",
+    "author": "Alex Rodriguez",
+    "authorRole": "Course Instructor",
+    "priority": "high",
+    "targetAudience": "students",
+    "department": "Computer Science",
+    "createdAt": "2024-08-22T16:45:00.000Z",
+    "expiresAt": "2024-10-06T23:59:59.000Z",
+    "isActive": true
+  },
+  {
+    "id": "5",
+    "title": "Career Fair 2024",
+    "content": "Join us for the Annual Tech Career Fair on September 28th! Meet representatives from top tech companies including Google, Microsoft, and Amazon. Registration required.",
+    "author": "Career Services",
+    "authorRole": "Career Development",
+    "priority": "high",
+    "targetAudience": "students",
+    "department": null,
+    "createdAt": "2024-08-15T10:00:00.000Z",
+    "expiresAt": "2024-09-29T23:59:59.000Z",
+    "isActive": true
+  }
+]

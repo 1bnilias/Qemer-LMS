@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "type": "lecture_completed",
+    "title": "Completed: Setting Up Your Development Environment",
+    "description": "You completed the lecture \"Setting Up Your Development Environment\" in Complete React Developer Course",
+    "timestamp": "2025-09-11T14:30:00.000Z",
+    "courseId": "1"
+  },
+  {
+    "id": "2",
+    "type": "assignment_submitted",
+    "title": "Submitted: Build Your First React Component",
+    "description": "You submitted your assignment \"Build Your First React Component\" and received 95/100 points",
+    "timestamp": "2025-09-10T16:45:00.000Z",
+    "courseId": "1"
+  },
+  {
+    "id": "3",
+    "type": "course_enrolled",
+    "title": "Enrolled: UI/UX Design Fundamentals",
+    "description": "You enrolled in the course \"UI/UX Design Fundamentals\"",
+    "timestamp": "2025-09-01T09:15:00.000Z",
+    "courseId": "3"
+  },
+  {
+    "id": "4",
+    "type": "lecture_completed",
+    "title": "Completed: What is React?",
+    "description": "You completed the lecture \"What is React?\" in Complete React Developer Course",
+    "timestamp": "2025-08-25T11:20:00.000Z",
+    "courseId": "1"
+  }
+]
