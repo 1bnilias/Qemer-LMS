@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cs",
+    "name": "Computer Science",
+    "code": "CS",
+    "head": "Dr. Sarah Johnson",
+    "description": "Department of Computer Science focusing on software development, algorithms, and system design",
+    "totalStudents": 150,
+    "totalFaculty": 8,
+    "activeCourses": 6,
+    "established": "2018",
+    "location": "Building A, Floor 2"
+  },
+  {
+    "id": "ds",
+    "name": "Data Science",
+    "code": "DS",
+    "head": "Prof. Mike Chen",
+    "description": "Department specializing in data analysis, machine learning, and artificial intelligence",
+    "totalStudents": 95,
+    "totalFaculty": 5,
+    "activeCourses": 4,
+    "established": "2019",
+    "location": "Building B, Floor 1"
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "code": "DN",
+    "head": "Dr. Emma Davis",
+    "description": "Department of Digital Design covering UI/UX, graphic design, and user experience",
+    "totalStudents": 75,
+    "totalFaculty": 4,
+    "activeCourses": 3,
+    "established": "2020",
+    "location": "Building C, Floor 1"
+  },
+  {
+    "id": "mobile",
+    "name": "Mobile Development",
+    "code": "MD",
+    "head": "Carlos Martinez",
+    "description": "Department focused on mobile application development for iOS and Android platforms",
+    "totalStudents": 60,
+    "totalFaculty": 3,
+    "activeCourses": 2,
+    "established": "2021",
+    "location": "Building A, Floor 3"
+  }
+]

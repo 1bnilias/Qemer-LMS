@@ -1,0 +1,89 @@
+[
+  {
+    "id": "1",
+    "name": "John Smith",
+    "email": "john.smith@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "student",
+    "department": "Computer Science",
+    "batch": "2024",
+    "enrolledCourses": ["1", "2", "3"],
+    "studentId": "CS2024001"
+  },
+  {
+    "id": "2",
+    "name": "Dr. Sarah Johnson",
+    "email": "sarah.johnson@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "instructor",
+    "department": "Computer Science",
+    "enrolledCourses": [],
+    "employeeId": "FAC001",
+    "specialization": "Web Development & Software Engineering"
+  },
+  {
+    "id": "3",
+    "name": "Prof. Mike Chen",
+    "email": "mike.chen@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "instructor",
+    "department": "Data Science",
+    "enrolledCourses": [],
+    "employeeId": "FAC002",
+    "specialization": "Machine Learning & AI"
+  },
+  {
+    "id": "4",
+    "name": "Dr. Emma Davis",
+    "email": "emma.davis@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "department_head",
+    "department": "Design",
+    "enrolledCourses": [],
+    "employeeId": "DH001",
+    "specialization": "UI/UX Design & Human-Computer Interaction"
+  },
+  {
+    "id": "5",
+    "name": "Alex Rodriguez",
+    "email": "alex.rodriguez@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "instructor",
+    "department": "Backend Development",
+    "enrolledCourses": [],
+    "employeeId": "FAC003",
+    "specialization": "System Architecture & DevOps"
+  },
+  {
+    "id": "6",
+    "name": "Dr. Lisa Wang",
+    "email": "lisa.wang@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "instructor",
+    "department": "Data Science",
+    "enrolledCourses": [],
+    "employeeId": "FAC004",
+    "specialization": "Statistics & Data Analysis"
+  },
+  {
+    "id": "7",
+    "name": "Carlos Martinez",
+    "email": "carlos.martinez@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "instructor",
+    "department": "Mobile Development",
+    "enrolledCourses": [],
+    "employeeId": "FAC005",
+    "specialization": "Cross-platform Mobile Development"
+  },
+  {
+    "id": "8",
+    "name": "Admin User",
+    "email": "admin@qemer.edu",
+    "avatar": "/api/placeholder/40/40",
+    "role": "admin",
+    "department": "Administration",
+    "enrolledCourses": [],
+    "employeeId": "ADM001"
+  }
+]

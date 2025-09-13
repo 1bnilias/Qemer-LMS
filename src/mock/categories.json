@@ -1,0 +1,8 @@
+[
+  { "id": "1", "name": "Computer Science", "description": "Core computer science courses and programming fundamentals", "icon": "💻", "courseCount": 3, "department": "Computer Science", "head": "Dr. Sarah Johnson" },
+  { "id": "2", "name": "Data Science", "description": "Data analysis, machine learning, and statistical computing", "icon": "📊", "courseCount": 2, "department": "Data Science", "head": "Prof. Mike Chen" },
+  { "id": "3", "name": "Design", "description": "UI/UX design, user research, and design systems", "icon": "🎨", "courseCount": 1, "department": "Design", "head": "Dr. Emma Davis" },
+  { "id": "4", "name": "Mobile Development", "description": "Cross-platform mobile application development", "icon": "📱", "courseCount": 1, "department": "Mobile Development", "head": "Carlos Martinez" },
+  { "id": "5", "name": "Mathematics", "description": "Discrete mathematics and computational theory", "icon": "🔢", "courseCount": 0, "department": "Mathematics", "head": "TBA" },
+  { "id": "6", "name": "Business & Entrepreneurship", "description": "Technology business, startups, and innovation", "icon": "💼", "courseCount": 0, "department": "Business", "head": "TBA" }
+]

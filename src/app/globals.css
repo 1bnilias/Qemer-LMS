@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 45 93% 58%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 262 83% 58%;
+    --radius: 0.75rem;
+
+    /* New colorful design tokens */
+    --success: 142 76% 36%;
+    --success-foreground: 355 100% 97%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 48 96% 89%;
+    --info: 199 89% 48%;
+    --info-foreground: 210 40% 98%;
+    --purple: 262 83% 58%;
+    --purple-foreground: 210 40% 98%;
+    --pink: 322 84% 60%;
+    --pink-foreground: 210 40% 98%;
+    --indigo: 243 75% 59%;
+    --indigo-foreground: 210 40% 98%;
+    --teal: 178 84% 41%;
+    --teal-foreground: 210 40% 98%;
+
+    /* Gradient colors */
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(292 91% 65%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(45 93% 58%) 0%, hsl(25 95% 53%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(199 89% 48%) 0%, hsl(221 83% 53%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%) 0%, hsl(158 64% 52%) 100%);
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 262 83% 65%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 45 93% 65%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 262 83% 65%;
+
+    /* Dark mode colorful design tokens */
+    --success: 142 76% 42%;
+    --success-foreground: 355 100% 97%;
+    --warning: 38 92% 55%;
+    --warning-foreground: 48 96% 89%;
+    --info: 199 89% 55%;
+    --info-foreground: 210 40% 98%;
+    --purple: 262 83% 65%;
+    --purple-foreground: 222.2 84% 4.9%;
+    --pink: 322 84% 65%;
+    --pink-foreground: 222.2 84% 4.9%;
+    --indigo: 243 75% 65%;
+    --indigo-foreground: 222.2 84% 4.9%;
+    --teal: 178 84% 45%;
+    --teal-foreground: 222.2 84% 4.9%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 65%) 0%, hsl(292 91% 70%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(45 93% 65%) 0%, hsl(25 95% 58%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(199 89% 55%) 0%, hsl(221 83% 58%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 42%) 0%, hsl(158 64% 55%) 100%);
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer utilities {
+  .bg-grid-pattern {
+    background-image:
+      linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}

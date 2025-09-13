@@ -1,0 +1,291 @@
+[
+  {
+    "id": "1",
+    "title": "CS101: Introduction to Computer Science",
+    "description": "Fundamental concepts of computer science including algorithms, data structures, and problem-solving. Required course for all computer science students.",
+    "instructor": "Dr. Sarah Johnson",
+    "image": "/api/placeholder/400/250",
+    "category": "Computer Science",
+    "department": "Computer Science",
+    "level": "Beginner",
+    "duration": 60,
+    "rating": 4.8,
+    "enrolledStudents": 85,
+    "credits": 3,
+    "semester": "Fall 2024",
+    "prerequisites": [],
+    "maxEnrollment": 100,
+    "status": "active",
+    "syllabus": [
+      {
+        "id": "1",
+        "title": "Introduction to React Fundamentals",
+        "description": "Understanding React components, JSX, and basic concepts",
+        "order": 1,
+        "duration": 45
+      },
+      {
+        "id": "2",
+        "title": "State Management and Hooks",
+        "description": "useState, useEffect, and custom hooks",
+        "order": 2,
+        "duration": 60
+      },
+      {
+        "id": "3",
+        "title": "Advanced React Patterns",
+        "description": "Context API, render props, and compound components",
+        "order": 3,
+        "duration": 75
+      },
+      {
+        "id": "4",
+        "title": "Testing React Applications",
+        "description": "Unit testing, integration testing, and testing best practices",
+        "order": 4,
+        "duration": 90
+      }
+    ],
+    "lectures": [
+      {
+        "id": "1",
+        "title": "What is React?",
+        "description": "Introduction to React and its ecosystem",
+        "videoUrl": "https://example.com/video1.mp4",
+        "duration": 15,
+        "order": 1,
+        "isCompleted": true,
+        "watchedDuration": 15
+      },
+      {
+        "id": "2",
+        "title": "Setting Up Your Development Environment",
+        "description": "Installing Node.js, npm, and creating your first React app",
+        "videoUrl": "https://example.com/video2.mp4",
+        "duration": 20,
+        "order": 2,
+        "isCompleted": true,
+        "watchedDuration": 18
+      },
+      {
+        "id": "3",
+        "title": "JSX and Components",
+        "description": "Understanding JSX syntax and component structure",
+        "videoUrl": "https://example.com/video3.mp4",
+        "duration": 25,
+        "order": 3,
+        "isCompleted": false,
+        "watchedDuration": 10
+      },
+      {
+        "id": "4",
+        "title": "Props and State",
+        "description": "Passing data between components and managing local state",
+        "videoUrl": "https://example.com/video4.mp4",
+        "duration": 30,
+        "order": 4,
+        "isCompleted": false,
+        "watchedDuration": 0
+      }
+    ],
+    "assignments": [
+      {
+        "id": "1",
+        "title": "Build Your First React Component",
+        "description": "Create a simple counter component using React hooks",
+        "dueDate": "2025-09-20T00:00:00.000Z",
+        "type": "coding",
+        "maxScore": 100,
+        "instructions": "Create a React component that displays a counter with increment and decrement buttons. Use useState hook to manage the counter state.",
+        "isSubmitted": true,
+        "submittedAt": "2025-09-18T00:00:00.000Z",
+        "score": 95,
+        "feedback": "Excellent work! Your component structure is clean and follows React best practices."
+      },
+      {
+        "id": "2",
+        "title": "React Fundamentals Quiz",
+        "description": "Test your knowledge of React core concepts",
+        "dueDate": "2025-09-25T00:00:00.000Z",
+        "type": "quiz",
+        "maxScore": 50,
+        "instructions": "Complete the online quiz covering JSX, components, props, and state.",
+        "isSubmitted": false
+      },
+      {
+        "id": "3",
+        "title": "Personal Portfolio Project",
+        "description": "Build a personal portfolio website using React",
+        "dueDate": "2025-10-05T00:00:00.000Z",
+        "type": "project",
+        "maxScore": 200,
+        "instructions": "Create a multi-page portfolio website showcasing your projects. Include navigation, responsive design, and clean UI.",
+        "isSubmitted": false
+      }
+    ],
+    "readingMaterials": [
+      {
+        "id": "1",
+        "title": "React Documentation - Main Concepts",
+        "description": "Official React documentation covering core concepts",
+        "type": "webpage",
+        "url": "https://react.dev/learn",
+        "isRead": true
+      },
+      {
+        "id": "2",
+        "title": "Thinking in React",
+        "description": "A guide to thinking about React applications",
+        "type": "article",
+        "url": "https://react.dev/learn/thinking-in-react",
+        "isRead": true
+      },
+      {
+        "id": "3",
+        "title": "React Hooks Guide",
+        "description": "Comprehensive guide to React hooks",
+        "type": "pdf",
+        "url": "https://example.com/react-hooks-guide.pdf",
+        "fileSize": 2.5,
+        "isRead": false
+      }
+    ],
+    "createdAt": "2025-01-15T00:00:00.000Z",
+    "updatedAt": "2025-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "CS201: Data Structures and Algorithms",
+    "description": "Advanced data structures, algorithm analysis, and problem-solving techniques. Prerequisite: CS101.",
+    "instructor": "Prof. Mike Chen",
+    "image": "/api/placeholder/400/250",
+    "category": "Computer Science",
+    "department": "Computer Science",
+    "level": "Intermediate",
+    "duration": 45,
+    "rating": 4.9,
+    "enrolledStudents": 65,
+    "credits": 4,
+    "semester": "Spring 2024",
+    "prerequisites": ["CS101"],
+    "maxEnrollment": 80,
+    "status": "active",
+    "syllabus": [
+      {
+        "id": "js1",
+        "title": "Closures and Scope",
+        "description": "Understanding lexical scope and closure patterns",
+        "order": 1,
+        "duration": 60
+      },
+      {
+        "id": "js2",
+        "title": "Prototypes and Inheritance",
+        "description": "Classical and prototypal inheritance patterns",
+        "order": 2,
+        "duration": 75
+      }
+    ],
+    "lectures": [],
+    "assignments": [],
+    "readingMaterials": [],
+    "createdAt": "2025-02-01T00:00:00.000Z",
+    "updatedAt": "2025-08-15T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "DS101: Introduction to UI/UX Design",
+    "description": "Principles of user interface and user experience design. Design thinking, user research, and prototyping methodologies.",
+    "instructor": "Dr. Emma Davis",
+    "image": "/api/placeholder/400/250",
+    "category": "Design",
+    "department": "Design",
+    "level": "Beginner",
+    "duration": 35,
+    "rating": 4.7,
+    "enrolledStudents": 45,
+    "credits": 3,
+    "semester": "Fall 2024",
+    "prerequisites": [],
+    "maxEnrollment": 60,
+    "status": "active",
+    "syllabus": [],
+    "lectures": [],
+    "assignments": [],
+    "readingMaterials": [],
+    "createdAt": "2025-03-10T00:00:00.000Z",
+    "updatedAt": "2025-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "CS301: Web Development and Backend Systems",
+    "description": "Server-side programming with Node.js, database design, and RESTful API development. Prerequisite: CS201.",
+    "instructor": "Alex Rodriguez",
+    "image": "/api/placeholder/400/250",
+    "category": "Computer Science",
+    "department": "Computer Science",
+    "level": "Intermediate",
+    "duration": 50,
+    "rating": 4.6,
+    "enrolledStudents": 55,
+    "credits": 4,
+    "semester": "Spring 2024",
+    "prerequisites": ["CS201"],
+    "maxEnrollment": 70,
+    "status": "active",
+    "syllabus": [],
+    "lectures": [],
+    "assignments": [],
+    "readingMaterials": [],
+    "createdAt": "2025-01-20T00:00:00.000Z",
+    "updatedAt": "2025-08-30T00:00:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "DS201: Data Science and Machine Learning",
+    "description": "Statistical analysis, machine learning algorithms, and data visualization. Python-based data science workflows.",
+    "instructor": "Dr. Lisa Wang",
+    "image": "/api/placeholder/400/250",
+    "category": "Data Science",
+    "department": "Data Science",
+    "level": "Advanced",
+    "duration": 55,
+    "rating": 4.8,
+    "enrolledStudents": 35,
+    "credits": 4,
+    "semester": "Fall 2024",
+    "prerequisites": ["CS101"],
+    "maxEnrollment": 40,
+    "status": "active",
+    "syllabus": [],
+    "lectures": [],
+    "assignments": [],
+    "readingMaterials": [],
+    "createdAt": "2025-02-15T00:00:00.000Z",
+    "updatedAt": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "6",
+    "title": "MD201: Mobile Application Development",
+    "description": "Cross-platform mobile development using React Native. App architecture, native APIs, and deployment strategies.",
+    "instructor": "Carlos Martinez",
+    "image": "/api/placeholder/400/250",
+    "category": "Mobile Development",
+    "department": "Mobile Development",
+    "level": "Advanced",
+    "duration": 45,
+    "rating": 4.5,
+    "enrolledStudents": 28,
+    "credits": 3,
+    "semester": "Spring 2024",
+    "prerequisites": ["CS301"],
+    "maxEnrollment": 35,
+    "status": "active",
+    "syllabus": [],
+    "lectures": [],
+    "assignments": [],
+    "readingMaterials": [],
+    "createdAt": "2025-04-01T00:00:00.000Z",
+    "updatedAt": "2025-08-20T00:00:00.000Z"
+  }
+]
