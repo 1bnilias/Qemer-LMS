@@ -13,7 +13,7 @@ export function MainLayout({ children }: MainLayoutProps) {
 
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      <Header onMenuClick={() => setSidebarOpen(true)} />
 
       <Sidebar
         isOpen={sidebarOpen}

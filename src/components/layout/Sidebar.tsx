@@ -53,7 +53,7 @@ export function Sidebar({ isOpen = false, onClose }: SidebarProps) {
       {/* Mobile overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-40 bg-background/80 backdrop-blur-sm md:hidden"
+          className="fixed inset-0 z-40 bg-background/90 backdrop-blur-sm md:hidden dark:bg-black/80"
           onClick={onClose}
         />
       )}
@@ -71,7 +71,7 @@ export function Sidebar({ isOpen = false, onClose }: SidebarProps) {
             <div className="space-y-6">
               {navigationItems.map((section) => (
                 <div key={section.title}>
-                  <h4 className="mb-2 px-3 text-sm font-medium text-muted-foreground uppercase tracking-wide">
+                  <h4 className="mb-2 px-3 text-sm font-medium text-black uppercase tracking-wide dark:text-gray-300">
                     {section.title}
                   </h4>
                   <div className="space-y-1">
@@ -84,9 +84,10 @@ export function Sidebar({ isOpen = false, onClose }: SidebarProps) {
                           <Button
                             variant={isActive ? 'secondary' : 'ghost'}
                             className={cn(
-                              'w-full justify-start',
+                              'w-full justify-start text-black dark:text-gray-300',
                               isActive && 'bg-secondary font-medium'
                             )}
+                            style={{ color: isActive ? undefined : '#000000' }}
                             onClick={onClose}
                           >
                             <Icon className="mr-3 h-4 w-4" />
@@ -103,8 +104,8 @@ export function Sidebar({ isOpen = false, onClose }: SidebarProps) {
           </ScrollArea>
 
           {/* Footer */}
-          <div className="border-t p-4">
-            <div className="text-xs text-muted-foreground text-center">
+          <div className="border-t border-border p-4 dark:border-gray-700">
+            <div className="text-xs text-black text-center dark:text-gray-400 font-medium">
               © 2025 Qemer LMS
             </div>
           </div>
